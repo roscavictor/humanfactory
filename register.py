@@ -27,8 +27,8 @@ def Database():
     global conn, cursor
     conn = mysql.connector.connect(host='localhost',
                                          database='amss2',
-                                         user='victorrosca',
-                                         password='Killer223!')
+                                         user='user',
+                                         password='password!')
     cursor = conn.cursor()
 
 
